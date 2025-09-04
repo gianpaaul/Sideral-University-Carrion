@@ -46,33 +46,36 @@ Follow these steps to install and run the project on your local machine:
 1. **Clone the repository:**  
    ```bash
    git clone https://github.com/gianpaaul/Sideral-University-Carrion.git
-2. **Open the Project in NetBeans**
-    
-   2.1 Launch NetBeans IDE.
-   2.2 Click File > Open Project.
-   2.3 Select the USC folder from the cloned repository and open it.
-    
-3. **Configure the Database in XAMPP**
    
-   3.1 Start XAMPP and activate the Apache and MySQL modules.
-   3.2 Open phpMyAdmin from the XAMPP control panel.
-   3.3 Create a database named usc.
-   3.4 Import the provided usc.sql file:
-   3.5 Navigate to the Import tab.
-   3.6 Select the usc.sql file from the cloned repository.
-   3.7 Click Go to complete the import.
+2. **Open the Project in NetBeans:**  
+    2.1 **Launch NetBeans IDE.**  
+    2.2 Click **File > Open Project**.  
+    2.3 Select the **USC** folder from the cloned repository and open it.
+   
+3. **Configure the Database in XAMPP:**  
+    3.1 **Start XAMPP** and activate **Apache** and **MySQL** modules.  
+    3.2 Open **phpMyAdmin** from the XAMPP control panel.  
+    3.3 Create a database named **usc**.  
+    3.4 Import the provided **usc.sql** file from the cloned repository:  
+        - Navigate to the **Import** tab.  
+        - Select the **usc.sql** file.  
+        - Click **Go** to complete the import.
+
+4. **Final Configuration:**  
+    4.1 Open the **`connection.java`** file in NetBeans.  
+    4.2 Verify the database connection settings.  
+    4.3 **Default settings:**  
+    ```
+    Host: localhost  
+    User: root  
+    Password: (empty by default unless configured otherwise)  
+    Database: usc
+    ```
+
         
-4. **Final Configuration**
-   
-   4.1 Open the connection.java file in NetBeans.
-   4.2 Verify and adjust the database connection credentials:
-   4.3 Host: localhost
-   4.4 User: root
-   4.5 Password: (leave empty by default unless configured otherwise).
-        
-5. **Run the Project**
-   
-   5.1 Press F6 or click Run in NetBeans to compile and execute the project.
+5. **Run the Project:**  
+    5.1 Press **F6** or click **Run** in NetBeans to compile and execute the project.
+
     
 ---
 ## Contributions
